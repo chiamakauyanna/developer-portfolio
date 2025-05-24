@@ -84,7 +84,8 @@ Feel free to use, modify, and distribute as per the terms of the license.
 
 
 ## Contact
-If you have any questions or suggestions, feel free to reach out:
+Email: chiamakauyanna@gmail.com
 
-Email: ChiamakaUyanna@gmail.com
 LinkedIn: linkedin.com/in/chiamakauyanna
+
+GitHub: github.com/chiamakauyanna
