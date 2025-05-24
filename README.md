@@ -1,8 +1,6 @@
 # Chiamaka Uyanna – Developer Portfolio
 
-A modern, responsive portfolio website to showcase my skills, projects, and contact information. Built using React, TailwindCSS, and other cutting-edge technologies, this website serves as a personal branding tool for potential employers and collaborators.
-
-
+Welcome to my developer portfolio! This is a personal showcase of my skills, projects, and experience as a Frontend Developer.
 
 ## Features
 
@@ -70,7 +68,7 @@ Follow these steps to run the project locally:
 
 
 
-## 🙌 Acknowledgments
+## Acknowledgments
 
 - React Documentation
 - TailwindCSS Documentation
@@ -79,13 +77,13 @@ Follow these steps to run the project locally:
 
 
 
-## 📝 License
+## License
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute as per the terms of the license.
 
 
 
-## 📧 Contact
+## Contact
 If you have any questions or suggestions, feel free to reach out:
 
 Email: ChiamakaUyanna@gmail.com
