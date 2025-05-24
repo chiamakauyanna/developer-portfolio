@@ -56,7 +56,7 @@ Follow these steps to run the project locally:
 
    ```bash
    git clone https://github.com/chiamakauyanna/developer-portfolio.git
-   cd my-portfolio
+   cd developer-portfolio
    
 2. **Install Dependencies**:
 
