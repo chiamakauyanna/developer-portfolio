@@ -1,10 +1,10 @@
-# Portfolio Website
+# Chiamaka Uyanna – Developer Portfolio
 
 A modern, responsive portfolio website to showcase my skills, projects, and contact information. Built using React, TailwindCSS, and other cutting-edge technologies, this website serves as a personal branding tool for potential employers and collaborators.
 
 
 
-## 🚀 Features
+## Features
 
 - **Responsive Design**
 - **Interactive Navigation**
@@ -14,7 +14,7 @@ A modern, responsive portfolio website to showcase my skills, projects, and cont
 
 
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **React**
 - **TailwindCSS**
@@ -24,13 +24,13 @@ A modern, responsive portfolio website to showcase my skills, projects, and cont
 
 
 
-## 🎨 Design Highlights
+## Design Highlights
 
 ### Typography
-- Custom font sizes for headings (`h1`, `h2`) and body text, optimized for readability.
+- Custom font sizes for headings (`h1`, `h2`) and body text, optimised for readability.
 - TailwindCSS's typography and shadow utilities for a polished look.
 
-### Color Palette
+### Colour Palette
 - Primary: `#1b1f24` 
 - Secondary: `#22282f` 
 - Accent: `#13bbff` 
@@ -42,13 +42,13 @@ A modern, responsive portfolio website to showcase my skills, projects, and cont
 
 
 
-## 🖥️ Live Demo
+## Live Demo
 
-[Visit the Live Website](https://my-portfolio-five-gold-11.vercel.app/)  
+[Visit the Live Website](https://developer-portfolio-flax-seven.vercel.app/)  
 
 
 
-## 🛠️ Installation and Setup
+## Installation and Setup
 
 Follow these steps to run the project locally:
 
@@ -89,3 +89,4 @@ Feel free to use, modify, and distribute as per the terms of the license.
 If you have any questions or suggestions, feel free to reach out:
 
 Email: ChiamakaUyanna@gmail.com
+LinkedIn: linkedin.com/in/chiamakauyanna
