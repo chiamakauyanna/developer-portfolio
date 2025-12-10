@@ -1,16 +1,14 @@
-# Chiamaka Uyanna – Developer Portfolio
+# Chiamaka Uyanna – Developer Project
 
-Welcome to my developer portfolio! This is a personal showcase of my skills, projects, and experience as a Frontend Developer.
+Welcome to my developer Project! This is a personal showcase of my skills, projects, and experience as a Frontend Developer.
 
 ## Features
 
 - **Responsive Design**
 - **Interactive Navigation**
 - **Showcase of Skills**
-- **Project Portfolio**
+- **Project Project**
 - **Contact Section**
-
-
 
 ## Technologies Used
 
@@ -20,31 +18,28 @@ Welcome to my developer portfolio! This is a personal showcase of my skills, pro
 - **Vite**
 - **PostCSS**
 
-
-
 ## Design Highlights
 
 ### Typography
+
 - Custom font sizes for headings (`h1`, `h2`) and body text, optimised for readability.
 - TailwindCSS's typography and shadow utilities for a polished look.
 
 ### Colour Palette
-- Primary: `#1b1f24` 
-- Secondary: `#22282f` 
-- Accent: `#13bbff` 
-- TextColor: `#fff` 
+
+- Primary: `#1b1f24`
+- Secondary: `#22282f`
+- Accent: `#13bbff`
+- TextColor: `#fff`
 
 ### Responsive Navigation
+
 - Desktop: Horizontal menu with hover effects.
 - Mobile: Slide-in menu with a toggle button.
 
-
-
 ## Live Demo
 
-[Visit the Live Website](https://developer-portfolio-flax-seven.vercel.app/)  
-
-
+[Visit the Live Website](https://developer-Project-flax-seven.vercel.app/)
 
 ## Installation and Setup
 
@@ -53,20 +48,23 @@ Follow these steps to run the project locally:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/chiamakauyanna/developer-portfolio.git
-   cd developer-portfolio
-   
+   git clone https://github.com/chiamakauyanna/developer-Project.git
+   cd developer-Project
+
+   ```
+
 2. **Install Dependencies**:
 
-   ```bash 
+   ```bash
     npm install
+
+   ```
 
 3. **Run the Development Server**:
 
    ```bash
     npm run dev
-
-
+   ```
 
 ## Acknowledgments
 
@@ -75,15 +73,13 @@ Follow these steps to run the project locally:
 - React Icons
 - AOS
 
-
-
 ## License
+
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute as per the terms of the license.
 
-
-
 ## Contact
+
 Email: chiamakauyanna@gmail.com
 
 LinkedIn: linkedin.com/in/chiamakauyanna

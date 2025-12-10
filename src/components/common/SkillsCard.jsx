@@ -2,17 +2,25 @@ import { skills } from "../../services/Skills";
 
 const SkillsCard = () => {
   return (
-    <ul className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-2 gap-6">
-      {skills.map((skill) => 
-      <li className="border border-transparent shadow-md shadow-accent rounded-2xl py-6 bg-secondary" key={skill.id}>
-        <div className="flex flex-col gap-4 items-center">
-          <div className="w-12 h-12">
-            <img src={skill.img} alt={skill.text}/>
+    <div className="grid md:grid-cols-2 grid-cols-1 gap-6 w-full">
+      {skills.map((skill) => (
+        <div key={skill.id} className="w-full">
+          <div className="flex justify-between mb-1">
+            <span className="text-lg font-semibold">{skill.text}</span>
+            <span className="text-sm font-medium text-accent">
+              {skill.level}%
+            </span>
           </div>
-          <p className="font-semibold text-lg">{skill.text}</p>
+
+          <div className="w-full bg-secondary/40 rounded-xl h-2 overflow-hidden">
+            <div
+              className="h-full bg-accent rounded-xl transition-all duration-700 ease-out"
+              style={{ width: `${skill.level}%` }}
+            ></div>
+          </div>
         </div>
-      </li>)}
-    </ul>
+      ))}
+    </div>
   );
 };
 

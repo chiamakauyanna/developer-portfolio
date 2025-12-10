@@ -2,7 +2,7 @@ import Logo from "../common/Logo";
 import NavBar from "../common/NavBar";
 import Button from "../common/Button";
 import { saveAs } from "file-saver";
-import resume from "../../../src/assets/Resume/ChiamakaUyanna.pdf";
+import resume from "../../../src/assets/Resume/Chiamaka_Uyanna_CV.pdf";
 
 const Header = () => {
   const DownloadCV = () => {

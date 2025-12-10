@@ -1,62 +1,42 @@
-import JavascriptImg from "../../src/assets/images/javascript.png";
-import TypescriptImg from "../../src/assets/images/typescript.png";
-import HtmlImg from "../../src/assets/images/html.png";
-import CssImg from "../../src/assets/images/css.png";
-import ReactImg from "../../src/assets/images/react.png";
-import GitImg from "../../src/assets/images/git.png";
-import NextImg from "../../src/assets/images/nextjs.png";
-import TailwindImg from "../../src/assets/images/tailwindcss.png";
-import ReactNativeImg from "../../src/assets/images/react.png";
-
-
 export const skills = [
   {
     id: 2,
-    img: HtmlImg,
-   text: 'HTML'
+    text: "HTML",
+    level: 90,
   },
-
   {
     id: 3,
-    img: CssImg,
-   text: 'CSS'
+    text: "CSS",
+    level: 90,
   },
-
   {
     id: 4,
-    img: JavascriptImg,
-   text: 'JavaScript'
+    text: "JavaScript",
+    level: 75,
   },
   {
     id: 5,
-    img: TypescriptImg,
-   text: 'TypeScript'
+    text: "TypeScript",
+    level: 70,
   },
-
   {
     id: 6,
-    img: NextImg,
-   text: 'NestJs'
+    text: "Next.js",
+    level: 80,
   },
   {
     id: 7,
-    img: ReactImg,
-   text: 'React'
+    text: "React",
+    level: 80,
   },
   {
     id: 8,
-    img: TailwindImg,
-   text: 'Tailwind CSS'
-  },
-
-  {
-    id: 9,
-    img:GitImg,
-   text: 'Git'
+    text: "Tailwind CSS",
+    level: 90,
   },
   {
     id: 10,
-    img:ReactNativeImg,
-   text: 'React Native'
+    text: "Zustand",
+    level: 70,
   },
-]
+];
