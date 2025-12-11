@@ -3,7 +3,7 @@ import SkillsCard from "../common/SkillsCard"
 const Skills = () => {
   return (
     <section id='skills'
-    className="w-screen lg:px-40 md:px-32 p-10 bg-primary text-textColor pt-32">
+    className="w-screen lg:px-40 md:px-32 p-10 bg-primary text-textColor py-32">
       <div className="text-center">
        <div
         data-aos="fade-down"

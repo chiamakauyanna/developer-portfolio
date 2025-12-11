@@ -1,4 +1,4 @@
-import { projects } from "../../services/Project";
+import { projects } from "../../services/projects";
 
 const ProjectCard = () => {
   return (
