@@ -1,5 +1,5 @@
 {
-  "name": "my-Project",
+  "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
-    "emailjs-com": "^3.2.0",
     "file-saver": "^2.0.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

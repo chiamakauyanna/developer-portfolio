@@ -1,4 +1,4 @@
-import aboutImg from "../../../src/assets/images/img3.png";
+import aboutImg from "../../../src/assets/images/profile.png";
 import Button from "../common/Button";
 
 const About = () => {
