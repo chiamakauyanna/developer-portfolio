@@ -3,11 +3,11 @@ import ProjectStackTrack from "../../src/assets/images/stacktrack.png";
 import Project1 from "../../src/assets/images/movie.png";
 import Project2 from "../../src/assets/images/colors-game.png";
 import Project3 from "../../src/assets/images/ticket-gen.png";
-import Project4 from "../../src/assets/images/pricing-plan.png";
+import Project4 from "../../src/assets/images/pricing.png";
 import Project5 from "../../src/assets/images/quotes.png";
 import Project6 from "../../src/assets/images/todo.png";
-import Project7 from "../../src/assets/images/temperature-converter.png";
-import Project8 from "../../src/assets/images/calc.png";
+import Project7 from "../../src/assets/images/temp-converter.png";
+import Project8 from "../../src/assets/images/calculator.png";
 
 export const projects = [
   // 1. Pollify
