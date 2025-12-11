@@ -6,8 +6,8 @@ import Project3 from "../../src/assets/images/ticket-gen.png";
 import Project4 from "../../src/assets/images/pricing-plan.png";
 import Project5 from "../../src/assets/images/quotes.png";
 import Project6 from "../../src/assets/images/todo.png";
-import Project7 from "../../src/assets/images/Temperature-converter.png";
-import Project8 from "../../src/assets/images/Calc.png";
+import Project7 from "../../src/assets/images/temperature-converter.png";
+import Project8 from "../../src/assets/images/calc.png";
 
 export const projects = [
   // 1. Pollify
@@ -17,7 +17,7 @@ export const projects = [
     title: "Pollify — Polling & Voting Platform",
     description:
       "A full-featured polling platform where users can create polls, vote, track results, and manage analytics. Built with React, Redux Toolkit, Tailwind, and Django REST.",
-    link: "https://github.com/chiamakauyanna/pollify",
+    link: "https://github.com/chiamakauyanna/pollify/",
     tags: ["React", "Redux", "Tailwind", "Django", "API"],
   },
 
