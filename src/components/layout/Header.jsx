@@ -2,7 +2,7 @@ import Logo from "../common/Logo";
 import NavBar from "../common/NavBar";
 import Button from "../common/Button";
 import { saveAs } from "file-saver";
-import resume from "../../../src/assets/Resume/Chiamaka_Uyanna_CV.pdf";
+import resume from "../../../src/assets/Resume/Chiamaka_CV_Developer.pdf";
 
 const Header = () => {
   const DownloadCV = () => {
@@ -14,10 +14,10 @@ const Header = () => {
       <Logo />
       <NavBar />
       <Button
-            text="Download CV"
-            className="btn-secondary"
-            onClick={DownloadCV}
-          />
+        text="Download CV"
+        className="btn-secondary"
+        onClick={DownloadCV}
+      />
     </header>
   );
 };

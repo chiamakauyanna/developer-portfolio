@@ -17,10 +17,10 @@ const ProjectCard = () => {
             {/* Floating neon frame */}
             <div
               className="
-                absolute -top-8 -left-10 
+                absolute -top-8 md:-left-10 -left-6
                 w-full h-full 
                 rounded-lg 
-                border-8 border-accent 
+                border-2 md:border-8 border-accent 
                 opacity-80
               "
             ></div>
@@ -37,7 +37,7 @@ const ProjectCard = () => {
               <img
                 src={project.img}
                 alt={project.title}
-                className="w-full h-80 object-cover"
+                className="w-full md:h-80 object-cover"
               />
             </div>
           </div>
