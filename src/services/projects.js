@@ -17,7 +17,7 @@ export const projects = [
     title: "Pollify — Polling & Voting Platform",
     description:
       "A full-featured polling platform where users can create polls, vote, track results, and manage analytics. Built with React, Redux Toolkit, Tailwind, and Django REST.",
-    link: "https://github.com/chiamakauyanna/pollify/",
+    link: "https://chiamakauyanna-pollify.vercel.app/",
     tags: ["React", "Redux", "Tailwind", "Django", "API"],
   },
 
@@ -28,7 +28,7 @@ export const projects = [
     title: "StackTrack — Project & Task Manager",
     description:
       "A clean and intuitive project management app for organizing tasks, tracking progress, and managing workflows.",
-    link: "https://github.com/chiamakauyanna/stacktrack",
+    link: "https://stacktrack-psi.vercel.app/",
     tags: ["React", "Redux", "Django", "UI/UX"],
   },
 
