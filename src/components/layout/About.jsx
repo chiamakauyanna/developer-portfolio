@@ -29,32 +29,23 @@ const About = () => {
             Next.js, and Tailwind. I love bringing designs to life through
             thoughtful, user-focused code.
           </p>
+          <div className="grid grid-cols-[20%_80%] gap-2">
+            <div className="space-y-2 mb-6 text-base font-semibold text-accent">
+              <p>Name:</p>
+              <p>Location:</p>
+              <p>Focus:</p>
+              <p>Stack:</p>
+              <p>Experience:</p>
+            </div>
 
-          <div className="space-y-2 mb-6">
-            <p className="text-base">
-              <span className="font-semibold text-accent mr-5">Name:</span>{" "}
-              Chiamaka Uyanna
-            </p>
-            <p className="text-base">
-              <span className="font-semibold text-accent mr-5">Location:</span>{" "}
-              Nigeria
-            </p>
-            <p className="text-base">
-              <span className="font-semibold text-accent mr-5">Focus:</span>{" "}
-              Frontend Development
-            </p>
-            <p className="text-base">
-              <span className="font-semibold text-accent mr-5">Stack:</span>{" "}
-              React · Next.js · Tailwind CSS
-            </p>
-            <p className="text-base">
-              <span className="font-semibold text-accent mr-5">
-                Experience:
-              </span>{" "}
-              Startup collab + personal projects
-            </p>
+            <div className="space-y-2 mb-6 text-base">
+              <p>Chiamaka Uyanna</p>
+              <p>Nigeria</p>
+              <p>Frontend Development</p>
+              <p>React · Next.js · Tailwind CSS</p>
+              <p>Startup collab + personal projects</p>
+            </div>
           </div>
-
           <Button text="View All Projects" className="btn-primary mt-4" />
         </div>
       </div>
