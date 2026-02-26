@@ -3,6 +3,7 @@ import ProjectStackTrack from "../../src/assets/images/stacktrack.png";
 import Project1 from "../../src/assets/images/movie.png";
 import Project2 from "../../src/assets/images/colors-game.png";
 import Project3 from "../../src/assets/images/ticket-gen.png";
+import Project9 from "../../src/assets/images/UI-dashboard.png";
 import Project4 from "../../src/assets/images/pricing.png";
 import Project5 from "../../src/assets/images/quotes.png";
 import Project6 from "../../src/assets/images/todo.png";
@@ -32,9 +33,20 @@ export const projects = [
     tags: ["React", "Redux", "Django", "UI/UX"],
   },
 
-  // 3. Movie Website
+  // 3. UI Implementation
   {
     id: 3,
+    img: Project9,
+    title: "UI Implementation Project (Figma → Code)",
+    description:
+      "Implementation of a fitness platform UI from an existing Figma design, focusing on layout, responsiveness, and reusable components.",
+    link: "https://github.com/chiamakauyanna/dashboard_UI",
+    tags: ["React", "Tailwind", "React Router"],
+  },
+
+  // 4. Movie Website
+  {
+    id: 4,
     img: Project1,
     title: "Movie Website",
     description:
@@ -43,9 +55,9 @@ export const projects = [
     tags: ["React", "Tailwind", "API"],
   },
 
-  // 4. Todo List App
+  // 5. Todo List App
   {
-    id: 4,
+    id: 5,
     img: Project6,
     title: "Todo List App",
     description:
@@ -54,9 +66,9 @@ export const projects = [
     tags: ["JavaScript", "Local Storage", "CSS"],
   },
 
-  // 5. Quote Generator
+  // 6. Quote Generator
   {
-    id: 5,
+    id: 6,
     img: Project5,
     title: "Quote Generator",
     description:
@@ -65,9 +77,9 @@ export const projects = [
     tags: ["JavaScript", "API", "UI"],
   },
 
-  // 6. Color Game
+  // 7. Color Game
   {
-    id: 6,
+    id: 7,
     img: Project2,
     title: "Color Game",
     description:
@@ -76,9 +88,9 @@ export const projects = [
     tags: ["JavaScript", "Game Logic", "CSS"],
   },
 
-  // 7. Temperature Converter
+  // 8. Temperature Converter
   {
-    id: 7,
+    id: 8,
     img: Project7,
     title: "Temperature Converter",
     description:
@@ -87,9 +99,9 @@ export const projects = [
     tags: ["JavaScript", "Utility"],
   },
 
-  // 8. Calculator
+  // 9. Calculator
   {
-    id: 8,
+    id: 9,
     img: Project8,
     title: "Calculator",
     description:
@@ -98,9 +110,9 @@ export const projects = [
     tags: ["JavaScript", "CSS", "Math Logic"],
   },
 
-  // 9. Pricing Component
+  // 10. Pricing Component
   {
-    id: 9,
+    id: 10,
     img: Project4,
     title: "Pricing Component",
     description:
@@ -109,9 +121,9 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
   },
 
-  // 10. Ticket Generator
+  // 11. Ticket Generator
   {
-    id: 10,
+    id: 11,
     img: Project3,
     title: "Ticket Generator",
     description:
