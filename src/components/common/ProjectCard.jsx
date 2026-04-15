@@ -1,6 +1,5 @@
-import { projects } from "../../services/projects";
-
-const ProjectCard = () => {
+// eslint-disable-next-line react/prop-types
+const ProjectCard = ({ projects = [] }) => {
   return (
     <div className="flex flex-col w-full gap-32">
       {projects.map((project, index) => (
@@ -12,9 +11,7 @@ const ProjectCard = () => {
           `}
           data-aos="fade-up"
         >
-          {/* Floating Frame Image Block */}
           <div className="relative w-full md:w-1/2">
-            {/* Floating neon frame */}
             <div
               className="
                 absolute -top-8 md:-left-10 -left-6
@@ -24,8 +21,6 @@ const ProjectCard = () => {
                 opacity-80
               "
             ></div>
-
-            {/* Main image card */}
             <div
               className="
                 rounded-lg overflow-hidden 
@@ -42,17 +37,13 @@ const ProjectCard = () => {
             </div>
           </div>
 
-          {/* Text Content Block */}
           <div className="w-full md:w-1/2 flex flex-col text-left">
             <h3 className="text-2xl md:text-3xl font-bold text-accent mb-4">
               {project.title}
             </h3>
-
             <p className="text-other text-base leading-relaxed mb-6">
               {project.description}
             </p>
-
-            {/* Tags */}
             {project.tags && (
               <div className="flex flex-wrap gap-2 mb-8">
                 {project.tags.map((tag, i) => (
@@ -71,8 +62,6 @@ const ProjectCard = () => {
                 ))}
               </div>
             )}
-
-            {/* Button */}
             <a
               href={project.link}
               target="_blank"

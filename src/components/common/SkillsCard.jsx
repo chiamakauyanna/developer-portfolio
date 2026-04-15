@@ -2,24 +2,27 @@ import { skills } from "../../services/Skills";
 
 const SkillsCard = () => {
   return (
-    <div className="grid md:grid-cols-2 grid-cols-1 gap-6 w-full">
-      {skills.map((skill) => (
-        <div key={skill.id} className="w-full">
-          <div className="flex justify-between mb-1">
-            <span className="text-lg font-semibold">{skill.text}</span>
-            <span className="text-sm font-medium text-accent">
-              {skill.level}%
-            </span>
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 w-full">
+      {skills.map((skill) => {
+        const Icon = skill.icon;
+        return (
+          <div
+            key={skill.id}
+            className="
+              flex flex-col items-center justify-center gap-3
+              px-4 py-6 rounded-xl
+              border border-accent/10
+              bg-secondary/40 backdrop-blur-sm
+              hover:border-accent/50 hover:bg-secondary/60
+              transition-all duration-300
+              group
+            "
+          >
+            <Icon className="text-4xl text-accent/70 group-hover:text-accent transition-colors duration-300" />
+            <span className="text-sm font-medium text-textColor">{skill.text}</span>
           </div>
-
-          <div className="w-full bg-secondary/40 rounded-xl h-2 overflow-hidden">
-            <div
-              className="h-full bg-accent rounded-xl transition-all duration-700 ease-out"
-              style={{ width: `${skill.level}%` }}
-            ></div>
-          </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 };
